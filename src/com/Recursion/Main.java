@@ -51,6 +51,9 @@ public class Main {
 
         for(int i=0;i<str.length;i++) {
             if (str[i].contains("HR")) {
+
+                // conversion with lowercase.
+
                 str1[j] = str[i].toUpperCase();
                 j++;
             }
